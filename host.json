@@ -1,0 +1,13 @@
+{
+    "version":  "2.0",     
+    "httpWorker": {
+        "description": {
+          "arguments": ["jolie_services.ol"],
+          "defaultExecutablePath": "jolie_func_executor.sh"
+        },
+        "extensionBundle": {
+          "id": "Microsoft.Azure.Functions.ExtensionBundle",
+          "version": "[1.*, 2.0.0)"
+        }
+    }
+}
